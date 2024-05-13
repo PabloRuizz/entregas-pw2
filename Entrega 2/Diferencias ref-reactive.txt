@@ -1,0 +1,15 @@
+
+En Vue 3, se ha introducido un nuevo sistema de reactividad basado en Proxies que es más eficiente y requiere menos memoria. 
+Este nuevo sistema se basa en dos funciones principales: ref() y reactive(), que permiten crear variables reactivas que pueden ser utilizadas en la interfaz de usuario.
+
+La función ref() se usa para crear una variable reactiva que contiene en su interior cualquier valor (no solo primitivos). Esto hace que ref sea más polivalente que reactive.. Si el valor cambia, la interfaz de usuario se actualiza automáticamente. 
+La función reactive(), por otro lado, se emplea para crear un objeto reactivos cuyas propiedades pueden ser accedidas y modificadas de manera reactiva.
+
+
+En resumen, las funciones ref() y reactive() son herramientas esenciales para el desarrollo de aplicaciones reactivas en Vue 3.
+La función ref() se utiliza fundamentalmente para crear variables reactivas que contienen valores primitivos, mientras que la función reactive() se emplea para crear objetos reactivos cuyas propiedades pueden ser accedidas y modificadas de manera reactiva. 
+Con la etiqueta <script setup>, es fácil crear componentes en Vue 3 utilizando estas funciones y aprovechar la reactividad para crear interfaces de usuario dinámicas y eficientes.
+
+
+
+
